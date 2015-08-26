@@ -49,8 +49,8 @@ brew install wget --with-iri
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
+# brew install ringojs
+# brew install narwhal
 
 # Install Python
 brew install python
@@ -117,8 +117,8 @@ brew install webkit2png
 brew install zopfli
 
 # Install Heroku
-brew install heroku-toolbelt
-heroku update
+# brew install heroku-toolbelt
+# heroku update
 
 # Install Cask
 brew install caskroom/cask/brew-cask
@@ -129,29 +129,26 @@ brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
 
 # Development tool casks
-brew cask install --appdir="/Applications" sublime-text
-brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" virtualbox
-brew cask install --appdir="/Applications" vagrant
-brew cask install --appdir="/Applications" heroku-toolbelt
+# brew cask install --appdir="/Applications" sublime-text
+# brew cask install --appdir="/Applications" atom
+# brew cask install --appdir="/Applications" virtualbox
+# brew cask install --appdir="/Applications" vagrant
+# brew cask install --appdir="/Applications" heroku-toolbelt
 
 # Misc casks
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" skype
-brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" evernote
-
-#Remove comment to install LaTeX distribution MacTeX
-#brew cask install --appdir="/Applications" mactex
+# brew cask install --appdir="/Applications" google-chrome
+# brew cask install --appdir="/Applications" firefox
+# brew cask install --appdir="/Applications" skype
+# brew cask install --appdir="/Applications" slack
+# brew cask install --appdir="/Applications" dropbox
+# brew cask install --appdir="/Applications" evernote
 
 # Link cask apps to Alfred
 brew cask alfred link
 
 # Install Docker, which requires virtualbox
-brew install docker
-brew install boot2docker
+# brew install docker
+# brew install boot2docker
 
 # Remove outdated versions from the cellar.
 brew cleanup
